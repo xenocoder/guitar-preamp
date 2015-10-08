@@ -1,0 +1,32 @@
+Partlist
+
+Exported from XenoPreamp.brd at 5/12/14 7:39 PM
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package             Library         Position (inch)       Orientation
+
++9V      +9V(T)         SQUARE              mb_supply       (1.15 0.1)            R0
+1        VOLIN          OCTOGON             mb_supply       (0.75 0.875)          R0
+2        VOLOUT         OCTOGON             mb_supply       (0.85 0.875)          R0
+3        GNF            OCTOGON             mb_supply       (0.95 0.875)          R0
+C1       0.047uF        072X025             mb_caps-box     (0.85 0.675)          R0
+C2       3.3nF          072X025             mb_caps-box     (1.175 0.225)         R180
+C3       0.22uF         072X025             mb_caps-box     (0.85 0.55)           R180
+C4       100uF          063_025             mb_caps-electro (1.575 0.8)           R90
+C5       10pF           050X030_025         mb_caps-ceramic (1.125 0.675)         R0
+C6       10uF           050_020_1           mb_caps-electro (1.375 0.65)          R0
+GND      GND(T)         SQUARE              mb_supply       (1.025 0.1)           R0
+IN       IN(T)          SQUARE              mb_supply       (0.875 0.1)           R0
+OUT      OUT(T)         SQUARE              mb_supply       (0.75 0.1)            R0
+POT1     B250K          B25P                mb_pots         (0.85 0.325)          R90
+Q1       J201           TO92-               mb_trans        (1.5 0.45)            R270
+Q2       J201           TO92-               mb_trans        (1.175 0.5)           R0
+R1       1M             R0207/3             mb_resistors    (1.225 0.35)          R180
+R2       1M             R0207/3             mb_resistors    (1.525 0.225)         R0
+R3       1M             R0207/3             mb_resistors    (1.675 0.475)         R270
+R4       100            R0207/3             mb_resistors    (1.525 0.1)           R0
+R5       1k             R0207/3             mb_resistors    (1.225 0.85)          R180
+U$1      A250K          16MM-PCB-MOUNT-DPDT Alpha-DPDTPot   (0.35 0.875)          R0
